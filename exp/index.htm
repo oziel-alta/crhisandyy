@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en html</title>
+</head>
+<body>
+ <center>
+<h1>FORMULARIOS</h1>
+ </center>   
+
+    <center>
+<table border width="60">
+    <tr>
+        <td>
+            <h3>CAMPO DE TEXTO</h3>
+        </td>
+        <td>
+            <input type="text" name="nombre" id="nombre" value="" placeholder="Escribe tu nombre" maxlength="30">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>CAMPO DE CONTRASEÑA</h3>
+        </td>
+        <td>
+            <input type="password" name="password" id="password" value="" placeholder="Escribe tu CONTRASEÑA" maxlength="30">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>CASILLA DE VERIFICACION</h3>
+        </td>
+        <td>
+            <input type="checkbox" name="check" id="check" value="" checked>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <h3>BOTON OPCION</h3>
+        </td>
+        <td>
+            <input type="radio" name="colores" id="colores" value="" ><br>
+            <input type="radio" name="colores" id="colores" value="" ><br>
+            <input type="radio" name="colores" id="colores" value="" ><br>
+        </td>
+    </tr>
+    <td>
+        <h3>CAMPO OCULTO</h3>
+    </td>
+    <td>
+        <input type="hidden" name="oculto" id="oculto" value="HTML" >
+    </td>
+</tr>
+<td>
+    <h3>BOTON ENVIAR</h3>
+</td>
+<td>
+    <input type="submit" name="enviar" value="enviar" >
+</td>
+</tr>
+<td>
+    <h3>BOTON RESET</h3>
+</td>
+<td>
+    <input type="reset" name="reset" value="BORRAR" ><br>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>AREA DE TEXTO</h3>
+</td>
+<td>
+    <textarea name="area" id="" cols="30" rows="10"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>LISTA DESPLEGABLE (COMBOBOX)</h3>
+</td>
+<td>
+<select name="equipos" id="equipos">
+    <option value="1" >"AMERICA"</option>
+    <option value="2" >"CRUZ AZUL"</option>
+    <option value="3" selected>CHIVAS</option>
+</select>
+</td>
+</tr>
+<td>
+    <h3>FIELOSET</h3>
+</td>
+<td>
+<fieldset>
+    <legend>DATOS</legend>
+    <label for="">nombre</label>
+    <input type="text">
+</fieldset>
+</td>
+</tr>
+<tr>
+ <td>
+    <h3>DATALIST</h3>
+</td>
+<td>
+    <input type="text" list="equipos">
+    <datalist id="equipos"> 
+        <option value="AMERICA">AMERICA</option>
+        <option value="CRUZ AZUL">CRUZ AZUL</option>
+        <option value="CHIVAS">CHIVAS</option>
+    </datalist>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>DATA LIST</h3>
+    </td>
+    <td>
+    <input type="text" list="equipos">
+    <datalist id="equipos"> 
+        <option value="AMERICA">AMERICA</option>
+        <option value="CRUZ AZUL">CRUZ AZUL</option>
+        <option value="CHIVAS">CHIVAS</option>
+    </datalist>
+</td>
+</tr>
+<tr>
+<td>
+    CAMPO EMAIL
+</td>
+<td>
+    <input type="email">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO NUMERICO
+    </td>
+<td>
+<input type="number">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO URL
+    </td>
+<td>
+<input type="url">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO FECHA
+    </td>
+    <td>
+<input type="date">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO FECHA Y HORA
+    </td>
+<td>
+<input type="datetime">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO HORA
+    </td>
+<td>
+<input type="time">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO WEEK
+    </td>
+<td>
+<input type="week">
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO MES
+    </td>
+<td>
+<input type="month">
+</td>
+</tr>
+<tr>
+    <td>
+BOTON GENERICO
+    </td>
+<td>
+<button>HOLA</button>
+</td>
+</tr>
+<tr>
+    <td>
+        METER
+    </td>
+<td>
+<meter value="20" max="100"></meter>
+</td>
+</tr>
+<tr>
+    <td>
+CAMPO BUSQUEDA
+    </td>
+<td>
+<input type="search">
+</td>
+</tr>
+
+    <td>
+CAMPO TELEFONO
+    </td>
+<td>
+<input type="tel">
+</td>
+</tr>
+
+    <td>
+CAMPO COLOR
+    </td>
+<td>
+<input type="color">
+</td>
+</tr>
+
+    <td>
+CAMPO ARCHIVO
+    </td>
+<td>
+<input type="file">
+</td>
+</tr>
+
+
+</table>
+</center>
+
+
+</form>
+
+</body>
+</html>
