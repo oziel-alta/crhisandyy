@@ -115,8 +115,8 @@ const guardarCategoria = async () => {
 
 const eliminarCategoria = (index) => {
     Swal.fire({
-        title: "¿QUIERES ELIMINAR LA IMAGEN?",
-        text: "¡YA ELIGE!",
+        title: "¿SEGURO DE ELIMINAR LA IMAGEN?",
+        text: "???",
         icon: "warning",
         showDenyButton: true,
         confirmButtonText: "Sí",
